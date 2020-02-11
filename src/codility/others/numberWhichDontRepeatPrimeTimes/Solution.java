@@ -6,22 +6,35 @@ public class Solution {
     public static void main(String[] args) {
 
         int[] A = {2, 3, 9, 2, 5, 1, 3, 7, 10};
-        int[] B = {2, 1, 3, 4, 3, 10, 6, 6, 1, 7, 10, 10, 10};
+        int[] B = {2, 1, 3, 4, 3, 3, 6, 6, 1, 7, 10, 10, 10};
         int[] C = {2, 9, 2, 5, 7, 10};
 
-        Solution solution = new Solution();
-        System.out.println(Arrays.toString(solution.solution(A, B)));
+        //Solution solution = new Solution();
 
-        int[] D = {1, 2, 3, 4, 5};
+        long startTime = System.nanoTime();
+
+
+        System.out.println(Arrays.toString(solution(A, B)));
+
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println(totalTime);
+
+
+
+/*        int[] D = {1, 2, 3, 4, 5};
         int[] E = {1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 5, 5, 5};
         int[] F = {2, 3};
 
-        System.out.println(Arrays.toString(solution.solution(D, E)));
+        System.out.println(Arrays.toString(solution.solution(D, E)));*/
+
+
+
     }
 
     // 0(n + m) + 0(√n)
 
-    public int[] solution(int[] A, int[] B) {
+    public static int[] solution(int[] A, int[] B) {
 
         int n = B.length;
 

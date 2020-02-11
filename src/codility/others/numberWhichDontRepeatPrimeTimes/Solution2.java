@@ -13,13 +13,24 @@ public class Solution2 {
         int[] C = {2, 9, 2, 5, 7, 10};
 
 
+//87690400
+//499376
+        long startTime = System.nanoTime();
+
         System.out.println(Arrays.toString(getNumberWhichDontRepeatPrimeTimes(table1, table2)));
 
-        int[] table3 = {1, 2, 3, 4, 5};
+
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println(totalTime);
+
+
+
+        /*int[] table3 = {1, 2, 3, 4, 5};
         int[] table4 = {1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 5, 5, 5};
         int[] F = {2, 3};
 
-        System.out.println(Arrays.toString(getNumberWhichDontRepeatPrimeTimes(table3, table4)));
+        System.out.println(Arrays.toString(getNumberWhichDontRepeatPrimeTimes(table3, table4)));*/
     }
 
     public static Object[] getNumberWhichDontRepeatPrimeTimes(int[] table1, int[] table2) {
