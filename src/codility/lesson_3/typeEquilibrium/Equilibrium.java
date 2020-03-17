@@ -1,4 +1,4 @@
-package codility.timeComplexity;
+package codility.lesson_3.typeEquilibrium;
 
 import java.util.ArrayList;
 import java.util.Collections;

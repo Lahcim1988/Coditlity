@@ -9,7 +9,7 @@ public class BinaryGapString {
     public static void main(String[] args) {
 
         BinaryGapString gap1 = new BinaryGapString();
-        int solution = gap1.solution(1041);
+        int solution = gap1.solution(1025);
         System.out.println(solution);
 
     }

@@ -9,7 +9,7 @@ public class Solution {
         int[] B = {2, 1, 3, 4, 3, 3, 6, 6, 1, 7, 10, 10, 10};
         int[] C = {2, 9, 2, 5, 7, 10};
 
-        //Solution solution = new Solution();
+        //SolutionXOR SolutionXOR = new SolutionXOR();
 
         long startTime = System.nanoTime();
 
@@ -26,7 +26,7 @@ public class Solution {
         int[] E = {1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 5, 5, 5};
         int[] F = {2, 3};
 
-        System.out.println(Arrays.toString(solution.solution(D, E)));*/
+        System.out.println(Arrays.toString(SolutionXOR.SolutionXOR(D, E)));*/
 
 
 
