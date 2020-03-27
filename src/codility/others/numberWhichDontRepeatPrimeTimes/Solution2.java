@@ -33,6 +33,7 @@ public class Solution2 {
         System.out.println(Arrays.toString(getNumberWhichDontRepeatPrimeTimes(table3, table4)));*/
     }
 
+    // O(n) or O(n) + (n)logn
     public static Object[] getNumberWhichDontRepeatPrimeTimes(int[] table1, int[] table2) {
         List<Integer> result = new ArrayList<>();
         for (int number1 : table1) {
