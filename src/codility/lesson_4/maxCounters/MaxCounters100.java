@@ -1,4 +1,4 @@
-package codility.countingElements;
+package codility.lesson_4.maxCounters;
 
 import java.util.Arrays;
 
