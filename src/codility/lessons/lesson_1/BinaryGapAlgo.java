@@ -1,5 +1,8 @@
 package codility.lessons.lesson_1;
 
+// Task Score 100%
+// Find longest sequence of zeros in binary representation of an integer.
+
 public class BinaryGapAlgo {
 
     public static void main(String[] args) {
