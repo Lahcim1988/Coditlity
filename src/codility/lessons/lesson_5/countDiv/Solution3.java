@@ -1,4 +1,4 @@
-package codility.prefixSums.countDiv;
+package codility.lessons.lesson_5.countDiv;
 
 public class Solution3 {
 

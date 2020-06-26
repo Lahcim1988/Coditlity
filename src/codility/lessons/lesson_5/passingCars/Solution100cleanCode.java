@@ -1,4 +1,4 @@
-package codility.prefixSums.passingCars;
+package codility.lessons.lesson_5.passingCars;
 
 public class Solution100cleanCode {
 

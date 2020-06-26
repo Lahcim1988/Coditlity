@@ -1,8 +1,8 @@
-package codility.brackets;
+package codility.bracketsProblem;
 
 import java.util.Stack;
 
-public class Solution {
+public class Solution3 {
 
     public static void main(String[] args) {
 
